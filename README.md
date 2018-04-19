@@ -1,2 +1,2 @@
 # Image_Process
-School project
+Counters chickpeas and lentils in an image. Works with two classes.
