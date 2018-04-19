@@ -19,7 +19,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	std::clock_t start;
 	double duration;
 
-	input = L"C://Users//Yusuf//Desktop//Img_Process//test3.bmp";
+	input = L"test3.bmp";
 	printf("\033c");
 
 	cout << "\n>> Image processing program for \033[0;32mGREENGROCERS\033[0m ¯\\_(:/)_/¯" << endl;
@@ -101,7 +101,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		switch (choice){
 		case 1:
 			display_imge = ConvertIntensityToBMP(bin, Width, Height, &new_size);
-			output = L"C://Users//Yusuf//Desktop//Img_Process//Output//1.bmp";
+			output = L"1.bmp";
 			printf("\033c");
 			if (SaveBMP(display_imge, Width, Height, new_size, output))
 				cout << "\033[0;32m[+]\033[0m Output Image was successfully saved" << endl << endl;
@@ -109,7 +109,7 @@ int _tmain(int argc, _TCHAR* argv[])
 			break;
 		case 2:
 			display_imge = ConvertIntensityToBMP(be, Width, Height, &new_size);
-			output = L"C://Users//Yusuf//Desktop//Img_Process//Output//2.bmp";
+			output = L"2.bmp";
 			printf("\033c");
 			if (SaveBMP(display_imge, Width, Height, new_size, output))
 				cout << "\033[0;32m[+]\033[0m Output Image was successfully saved" << endl << endl;
@@ -117,7 +117,7 @@ int _tmain(int argc, _TCHAR* argv[])
 			break;
 		case 3:
 			display_imge = ConvertIntensityToBMP(er, Width, Height, &new_size);
-			output = L"C://Users//Yusuf//Desktop//Img_Process//Output//3.bmp";
+			output = L"3.bmp";
 			printf("\033c");
 			if (SaveBMP(display_imge, Width, Height, new_size, output))
 				cout << "\033[0;32m[+]\033[0m Output Image was successfully saved" << endl << endl;
@@ -125,7 +125,7 @@ int _tmain(int argc, _TCHAR* argv[])
 			break;
 		case 4:
 			display_imge = ConvertIntensityToBMP(dil, Width, Height, &new_size);
-			output = L"C://Users//Yusuf//Desktop//Img_Process//Output//4.bmp";
+			output = L"4.bmp";
 			printf("\033c");
 			if (SaveBMP(display_imge, Width, Height, new_size, output))
 				cout << "\033[0;32m[+]\033[0m Output Image was successfully saved" << endl << endl;
@@ -133,7 +133,7 @@ int _tmain(int argc, _TCHAR* argv[])
 			break;
 		case 5:
 			display_imge = ConvertIntensityToBMP(col, Width, Height, &new_size);
-			output = L"C://Users//Yusuf//Desktop//Img_Process//Output//5.bmp";
+			output = L"5.bmp";
 			printf("\033c");
 			if (SaveBMP(display_imge, Width, Height, new_size, output))
 				cout << "\033[0;32m[+]\033[0m Output Image was successfully saved" << endl << endl;
