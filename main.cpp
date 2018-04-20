@@ -37,7 +37,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	BYTE* be = BoundaryExtraction(bin, Width, Height, 3);
 	BYTE* er = Erosion(bin, Width, Height, 5);
 	BYTE* dil = Dilation(er, Width, Height, 5);
-	int* tag = CCA(bin, Width, Height);
+	int* tag = CCA(er, Width, Height);
 
 	int* temp_tag = new int[Width*Height];
 	for (int i = 0; i < Width*Height; i++)
