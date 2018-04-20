@@ -24,7 +24,6 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	cout << "\n>> Image processing program for \033[0;32mGREENGROCERS\033[0m ¯\\_(:/)_/¯" << endl;
 	cout << ">>\033[0;36m https://github.com/abdllhcay \033[0m\n" << endl;
-	cout << "\033[1;34m[?]\033[0m Enter image directory ";
 	cout << "\033[0;32m[+]\033[0m Input image ";
 	wcout << input << endl;
 	cout << "\033[1;34m[?]\033[0m Rendering ..." << endl;
