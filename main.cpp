@@ -84,7 +84,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	cout << "\033[0;32m[+]\033[0m Number of chickpeas: " << numChickpea << endl;
 	cout << "\033[0;32m[+]\033[0m Number of lentils: " << numLentil << endl << endl;
 	
-	BYTE* display_imge = 0;
+	// Check results if required
+	/*BYTE* display_imge = 0;
 	int choice = 1;
 	while (choice != 0){
 		cout << "1. Convert to binary" << endl;
@@ -141,7 +142,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		case 0:
 			cout << "\033[1;34m[?]\033[0m Exiting program. See ya!" << endl;
 		}
-	}
+	}*/
 
 	delete[] display_imge;
 	delete[] temp_tag;
