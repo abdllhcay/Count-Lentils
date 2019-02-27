@@ -4,6 +4,6 @@ Counters chickpeas and lentils in a BMP image. Works with two classes. Tested wi
 ### Binary Representation
 Program itself uses K-Means algorithm to convert intensity image to binary representation.
 
-![](Count-Lentils%20images%20binary.bmp)
+![](images/binary.bmp)
 
 
